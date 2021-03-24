@@ -129,7 +129,7 @@
     font-size: 25px;
   }
   .categories .product img {
-    margin-left: -150px;
+    margin-left: -120px;
   }
   .specialsss {
     margin-left: -60px;
@@ -140,19 +140,28 @@
     margin-left: 0px;
   }
   .spec .col-4 img {
-    margin-left: -60px;
+    margin-top: -30px;
+    margin-left: -50px;
   }
+  .spec .col-4 {
+    margin-top: -50px;
+  }
+
   .spec .col-4 .details {
     margin-left: 50px;
+    margin-top: -60px;
   }
   .client .small {
-    margin-left: -10px;
+    margin-left: -1px;
+  }
+  .client .small .member {
+    margin-left: 15px;
   }
   .test img {
-    margin-left: -110px;
+    margin-left: -90px;
   }
 
   .specials .box {
-    margin-left: -30px;
+    margin-left: -13px;
   }
 }
