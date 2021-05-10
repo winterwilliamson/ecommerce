@@ -6,15 +6,17 @@
 /* --navbar */
 body {
   margin: auto;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
 }
 .nav {
   max-width: 1300px;
   padding: 0 80px;
-  
 }
+
 .logo img {
-  width: 125px;
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
   color: blue;
 }
 .link .logo a {
@@ -129,9 +131,8 @@ h4 {
   text-align: center;
   max-width: 1280px;
   margin-left: 80px;
-  
 }
-.spec{
+.spec {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
@@ -142,55 +143,49 @@ h4 {
   grid-gap: 1rem;
   margin: 20px;
 }
-.categories h1{
-  padding-top: 100px ;
+.categories h1 {
+  padding-top: 100px;
 }
-.product img{
-  width: 70%;
-  
-
+.product img {
+  width: 300px;
+  margin: auto;
 }
-.product img:hover{
+.product img:hover {
   transform: translateY(-10px);
-
 }
 .text {
   text-align: center;
   color: coral;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 600;
-  margin-top: 20px;
-  
+  margin-top: 30px;
 }
 .client .small {
-
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
   padding: 40px;
   margin-left: 40px;
-
-
 }
 
-.client .member p{
+.client .member p {
   font-size: 16px;
   margin-top: 10px;
 }
-.client .member h3{
+.client .member h3 {
   font-weight: 600;
   margin-top: 10px;
-
 }
-.client h1{
+.client h1 {
   padding-top: 100px;
 }
 .client .member {
   width: 300px;
   height: 400px;
+  margin: auto;
 }
-.client .member:hover{
+.client .member:hover {
   transform: translateY(-10px);
 }
 .client .member img {
@@ -213,20 +208,19 @@ h4 {
   height: 400px;
 }
 
-
 .service {
   padding: 40px;
 }
 /* companies */
 
-.brand .test{
+.brand .test {
   padding: 40px;
   display: grid;
   margin-left: 100px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
 }
-.brand .asset{
+.brand .asset {
   text-align: center;
   color: coral;
   font-size: 50px;
@@ -239,11 +233,10 @@ h4 {
   margin-top: 40px;
 }
 
-.content h5 a{
- color: black;
- cursor: pointer;
- text-decoration: none;
- 
+.content h5 a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .specials .box .content {
@@ -253,10 +246,8 @@ h4 {
   padding: 20px 40px;
 }
 
-
 .specialize {
-    padding: 50px;
-  
+  padding: 50px;
 }
 .specials {
   position: relative;
@@ -297,13 +288,16 @@ h4 {
   background: linear-gradient(45deg, #ffbc00, #ff0058);
   filter: blur(30px);
 }
-#contact h1{
+#contact h1 {
   padding-top: 10px;
 }
+.details {
+  margin: auto;
 
+  width: 300px;
+}
 .container .py-md-5 {
   margin-top: 20px;
-
 }
 /* footer */
 .footer {
@@ -314,12 +308,16 @@ h4 {
 }
 .footer p {
   color: #8a8a8a;
+  width: 70%;
+  margin: auto;
 }
-.footer h3{
+.footer h3 {
   color: #fff;
   margin-bottom: 20px;
 }
-.footer-col-1, .footer-col-2, .footer-col-3 .footer-col-4{
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 .footer-col-4 {
   min-width: 250px;
   margin-bottom: 20px;
 }
@@ -330,21 +328,22 @@ h4 {
   flex: 1;
   text-align: center;
 }
-.footer-col-2 img{
+.footer-col-2 img {
   width: 180px;
   margin-bottom: 20px;
 }
-.footer-col-3, .footer-col-4{
+.footer-col-3,
+.footer-col-4 {
   flex-basis: 12%;
   text-align: center;
 }
- ul {
-list-style: none ;
+ul {
+  list-style: none;
 }
 .app-logo {
   margin-top: 20px;
 }
-.app-logo img{
+.app-logo img {
   width: 140px;
 }
 .footer hr {
@@ -353,8 +352,7 @@ list-style: none ;
   background: #b5b5b5;
   border: none;
 }
-.container .copyright
- {
-   text-align: center;
-   color: #fff;
- }
+.container .copyright {
+  text-align: center;
+  color: #fff;
+}

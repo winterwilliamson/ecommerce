@@ -78,8 +78,11 @@
     margin-left: -50px;
   }
   .categories .product img {
-    width: 320px;
-    height: 400px;
+    margin: auto;
+  }
+  .form {
+    width: 70%;
+    margin: auto;
   }
 
   .spec {
@@ -87,16 +90,10 @@
     grid-template-columns: 1fr;
     margin-left: 60px;
   }
-  .spec .col-4 .details {
-    margin-left: 100px;
-  }
-  .spec .col-4 .details .rating {
-    display: flex;
-  }
   .brand .test {
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 200px;
+    margin: auto;
   }
 
   .item2 img {
@@ -119,6 +116,9 @@
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
+  .product img {
+    margin: auto;
+  }
 }
 
 @media (max-width: 550px) {
@@ -129,7 +129,7 @@
     font-size: 25px;
   }
   .categories .product img {
-    margin-left: -120px;
+    margin-left: -140px;
   }
   .specialsss {
     margin-left: -60px;
@@ -148,20 +148,19 @@
   }
 
   .spec .col-4 .details {
-    margin-left: 50px;
-    margin-top: -60px;
+    width: 200px;
+    margin: auto;
   }
   .client .small {
     margin-left: -1px;
   }
-  .client .small .member {
-    margin-left: 15px;
-  }
-  .test img {
-    margin-left: -90px;
-  }
 
+  .test img {
+    margin: auto;
+  }
   .specials .box {
-    margin-left: -13px;
+    margin: auto;
+
+    width: 95%;
   }
 }
